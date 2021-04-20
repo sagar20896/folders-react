@@ -26,7 +26,6 @@ class FolderDS {
         let returnVal;
         this.subFolders.forEach(folder => {
             if(folder.folderName === folderName) {
-                console.log("change: ", folder);
                 returnVal = folder;
             }
         });
